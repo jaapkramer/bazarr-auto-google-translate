@@ -12,12 +12,12 @@ It's a small script that I've used to automatically translate subtitles for my T
     cd bazarr-auto-google-translate
     ```
 
-3. Install the required packages:
+2. Install the required packages:
     ```sh
     pip install -r requirements.txt
     ```
 
-4. Create a `.env` file in the root directory and add your Bazarr API key and base URL:
+3. Create a `.env` file in the root directory and add your Bazarr API key and base URL:
     ```plaintext
     BAZARR_API_KEY=your_api_key
     BAZARR_BASE_URL=http://your-bazarr-url-including-port
